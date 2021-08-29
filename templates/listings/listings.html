@@ -2,6 +2,8 @@
 
 {% load humanize %}
 
+{% block title %} | Browse {% endblock title %}
+
 {% block content %}
 <section id="showcase-inner" class="py-5 text-white">
     <div class="container">
@@ -53,9 +55,9 @@
                 <hr>
                 <div class="row py-2 text-secondary">
                   <div class="col-6">
-                    <i class="fas fa-th-large"></i> Sqtf: {{ listing.sqt }}</div>
+                    <i class="fas fa-th-large"></i> Sqtf: {{ listing.sqft }}</div>
                   <div class="col-6">
-                    <i class="fas fa-car"></i> Garage: {{ listing.garage }}</div>
+                    <i class="fas fa-car"></i> Garage: {{ listing.garadge }}</div>
                 </div>
                 <div class="row py-2 text-secondary">
                   <div class="col-6">
